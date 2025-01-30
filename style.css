@@ -1,0 +1,56 @@
+:root {
+  --cor-fundo: black;
+  --cor-texto: rgb(255, 255, 255);
+  --cor-text-destaque: rgb(199, 199, 0);
+  --cor-titulo: white;
+  --cor-fundo-blocos: rgb(228, 228, 117);
+  --cor-fundo-segundary: rgb(158, 158, 82);
+  --borda: yellow;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+
+  font-family: "Sixtyfour Convergence", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 100%;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0,
+    "XELA" 0,
+    "YELA" 0;
+}
+
+body {
+  color: var(--cor-texto);
+  background-color: var(--cor-fundo);
+  display: flex;
+  display: inline;
+}
+
+.content {
+  margin: 30px;
+}
+
+.SobreMim {
+  margin: 20px;
+  width: 100%;
+}
+
+.SobreMim h1 {
+  color: var(--cor-text-destaque);
+  padding: 5px 0px;
+}
+
+.SobreMim h2 {
+  padding: 10px 0px;
+}
+
+.SobreMim p {
+  padding: 10px 0px;
+}
