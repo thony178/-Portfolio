@@ -54,3 +54,77 @@ body {
 .SobreMim p {
   padding: 10px 0px;
 }
+
+.Projetos {
+  padding: ;
+  gap: 15px;
+}
+
+.Projetos a {
+  border: 15px;
+  border-radius: 10px;
+  background-color: var(--borda);
+  gap: 15px;
+}
+
+.Projeto1 {
+  margin: 5px;
+  padding: 15px;
+  background-color: blue;
+  
+}
+
+.Projeto1 h2 {
+  padding: 5px 0px;
+  align-items: start;
+}
+
+.Projeto1 p {
+  margin: 10px 0px;
+}
+
+
+.Projeto2 {
+  margin: 5px;
+  padding: 15px;
+  background-color: blue;
+}
+
+.Projeto2 h2 {
+  padding: 5px 0px;
+  align-items: start;
+}
+
+.Projeto2 p {
+  margin: 5px;
+}
+
+.Projeto3 {
+  margin: 5px;
+  padding: 15px;
+  background-color: blue;
+}
+
+.Projeto3 h2 {
+  padding: 5px 0px;
+  align-items: start;
+}
+
+.Projeto3 p {
+  margin: 5px;
+}
+
+.Projeto4 {
+  margin: 5px;
+  padding: 15px;
+  background-color: blue;
+}
+
+.Projeto4 h2 {
+  padding: 5px 0px;
+  align-items: start;
+}
+
+.Projeto4 p {
+  margin: 5px;
+}
