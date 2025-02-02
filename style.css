@@ -1,5 +1,6 @@
 :root {
-  --cor-fundo: black;
+  --cor-fundo: rgb(158, 160, 31);
+  --cor-de-fundo2: #000000;
   --cor-texto: rgb(255, 255, 255);
   --cor-text-destaque: rgb(199, 199, 0);
   --cor-titulo: white;
@@ -28,103 +29,113 @@
 
 body {
   color: var(--cor-texto);
-  background-color: var(--cor-fundo);
+  background-color: var(--cor-de-fundo2);
   display: flex;
   display: inline;
+  padding: 1%;
 }
 
-.content {
-  margin: 30px;
-}
+  .content {
+    margin: 40px;
+  }
 
-.SobreMim {
-  margin: 20px;
-  width: 100%;
-}
+    .SobreMim {
+      margin: 0px;
+      width: 100%;
+      padding: 1%;
+      background-color: var(--cor-fundo);
+      text-align: center;
+    }
 
-.SobreMim h1 {
-  color: var(--cor-text-destaque);
-  padding: 5px 0px;
-}
+        .SobreMim h1 {
+          color: var(--cor-text-destaque);
+          padding: 5px 0px;
+        }
 
-.SobreMim h2 {
-  padding: 10px 0px;
-}
+        .SobreMim h2 {
+          padding: 10px 0px;
+        }
 
-.SobreMim p {
-  padding: 10px 0px;
-}
+        .SobreMim p {
+          padding: 10px 0px;
+        }
 
 .Projetos {
-  padding: ;
-  gap: 15px;
+  margin: 2%;
 }
 
-.Projetos a {
-  border: 15px;
-  border-radius: 10px;
-  background-color: var(--borda);
-  gap: 15px;
-}
+    .Projetos a {
+      border: 15px;
+      border-radius: 10px;
+      background-color: var(--borda);
+      gap: 15px;
+    }
 
-.Projeto1 {
-  margin: 5px;
-  padding: 15px;
-  background-color: blue;
-  
-}
+    .Projeto1 {
+      margin: 5px;
+      padding: 15px;
+      background-color: blue;
+      padding: 1%;
+      border-radius: 5px;
+    }
 
-.Projeto1 h2 {
-  padding: 5px 0px;
-  align-items: start;
-}
+        .Projeto1 h2 {
+          padding: 5px 0px;
+          align-items: start;
+        }
 
-.Projeto1 p {
-  margin: 10px 0px;
-}
+        .Projeto1 p {
+          margin: 10px 0px;
+        }
 
 
-.Projeto2 {
-  margin: 5px;
-  padding: 15px;
-  background-color: blue;
-}
+    .Projeto2 {
+      margin: 5px;
+      padding: 15px;
+      background-color: blue;
+      padding: 1%;
+      border-radius: 5px;
+    }
 
-.Projeto2 h2 {
-  padding: 5px 0px;
-  align-items: start;
-}
+        .Projeto2 h2 {
+          padding: 5px 0px;
+          align-items: start;
+        }
 
-.Projeto2 p {
-  margin: 5px;
-}
+        .Projeto2 p {
+          margin: 5px;
+        }
 
-.Projeto3 {
-  margin: 5px;
-  padding: 15px;
-  background-color: blue;
-}
+    .Projeto3 {
+      margin: 5px;
+      padding: 15px;
+      background-color: blue;
+      padding: 1%;
+      border-radius: 5px;
+    }
 
-.Projeto3 h2 {
-  padding: 5px 0px;
-  align-items: start;
-}
+        .Projeto3 h2 {
+          padding: 5px 0px;
+          align-items: start;
+        }
 
-.Projeto3 p {
-  margin: 5px;
-}
+        .Projeto3 p {
+          margin: 5px;
+        }
 
-.Projeto4 {
-  margin: 5px;
-  padding: 15px;
-  background-color: blue;
-}
+    .Projeto4 {
+      margin: 5px;
+      padding: 15px;
+      background-color: blue;
+      padding: 1%;
+      border-radius: 5px;
+    }
 
-.Projeto4 h2 {
-  padding: 5px 0px;
-  align-items: start;
-}
+        .Projeto4 h2 {
+          padding: 5px 0px;
+          align-items: start;
+        }
 
-.Projeto4 p {
-  margin: 5px;
-}
+        .Projeto4 p {
+          margin: 5px;
+        }
