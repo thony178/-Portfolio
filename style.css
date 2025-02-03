@@ -1,12 +1,13 @@
 :root {
-  --cor-fundo: rgb(158, 160, 31);
-  --cor-de-fundo2: #000000;
-  --cor-texto: rgb(255, 255, 255);
-  --cor-text-destaque: rgb(199, 199, 0);
+  --cor-fundo: rgb(255, 255, 255);
+  --cor-fundo-bloco: #b3b45b;
+  --cor-texto: rgb(0, 0, 0);
+  --cor-text-destaque: rgb(255, 255, 255);
   --cor-titulo: white;
-  --cor-fundo-blocos: rgb(228, 228, 117);
-  --cor-fundo-segundary: rgb(158, 158, 82);
-  --borda: yellow;
+  --cor-fundo-link: rgb(158, 158, 74);
+  --cor-fundo-link-b: rgb(185, 185, 5);
+  --cor-fundo-hover: aqua;
+  --cor-borda: rgb(184, 184, 46);
 }
 
 *{
@@ -29,93 +30,105 @@
 
 body {
   color: var(--cor-texto);
-  background-color: var(--cor-de-fundo2);
+  background-color: var(--cor-fundo);
   display: flex;
-  display: inline;
-  padding: 1%;
+
 }
 
   .content {
-    margin: 40px;
+    margin: 20px;
   }
 
-    .SobreMim {
-      margin: 0px;
-      width: 100%;
-      padding: 1%;
-      background-color: var(--cor-fundo);
-      text-align: center;
+    .sobremim {
+      padding: 5%;
+      background-color: var(--cor-fundo-bloco);
     }
 
-        .SobreMim h1 {
+      .sobremim_conteudo{
+        
+      }
+
+        .s-link-buntao {
+          background-color: var(--cor-fundo-link-b);
+          gap: 20px;
+          margin: 15px;
+          padding: 5px;
+        }
+
+        .sobremim h1 {
           color: var(--cor-text-destaque);
           padding: 5px 0px;
         }
 
-        .SobreMim h2 {
+        .sobremim h2 {
           padding: 10px 0px;
         }
 
-        .SobreMim p {
+        .sobremim p {
           padding: 10px 0px;
         }
 
-.Projetos {
+        .foto {
+          width: 15%;
+        }
+
+.projetos {
   margin: 2%;
+  padding: 5%;
+  background-color: var(--cor-fundo-bloco);
 }
 
-    .Projetos a {
-      border: 15px;
-      border-radius: 10px;
-      background-color: var(--borda);
+    .p-link-buntao {
+      background-color: var(--cor-fundo-link-b);
       gap: 15px;
+      justify-content: center;
     }
 
-    .Projeto1 {
+    .projeto1 {
       margin: 5px;
-      padding: 15px;
-      background-color: blue;
+      padding: 8%;
+      background-color: var(--cor-fundo-link);
       padding: 1%;
       border-radius: 5px;
     }
 
-        .Projeto1 h2 {
-          padding: 5px 0px;
+        .projeto1 h2 {
+          padding: 5px 15px;
           align-items: start;
         }
 
-        .Projeto1 p {
-          margin: 10px 0px;
+        .projeto1 p {
+          margin: 15px 15px;
         }
 
 
-    .Projeto2 {
+    .projeto2 {
       margin: 5px;
       padding: 15px;
-      background-color: blue;
+      background-color: var(--cor-fundo-link);
       padding: 1%;
       border-radius: 5px;
     }
 
-        .Projeto2 h2 {
-          padding: 5px 0px;
+        .projeto2 h2 {
+          padding: 5px 15px;
           align-items: start;
         }
 
-        .Projeto2 p {
+        .projeto2 p {
           margin: 5px;
         }
 
-    .Projeto3 {
+    .projeto3 {
       margin: 5px;
       padding: 15px;
-      background-color: blue;
+      background-color: var(--cor-fundo-link);
       padding: 1%;
       border-radius: 5px;
     }
 
-        .Projeto3 h2 {
-          padding: 5px 0px;
+        .projeto3 h2 {
+          padding: 5px 15px;
           align-items: start;
         }
 
@@ -123,19 +136,23 @@ body {
           margin: 5px;
         }
 
-    .Projeto4 {
+    .projeto4 {
       margin: 5px;
       padding: 15px;
-      background-color: blue;
+      background-color: var(--cor-fundo-link);
       padding: 1%;
       border-radius: 5px;
     }
 
-        .Projeto4 h2 {
-          padding: 5px 0px;
+        .projeto4 h2 {
+          padding: 5px 15px;
           align-items: start;
         }
 
-        .Projeto4 p {
+        .projeto4 p {
           margin: 5px;
         }
+
+@media (max-width: 1000px) {
+    
+}
